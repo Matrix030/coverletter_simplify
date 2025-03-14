@@ -8,7 +8,7 @@ import keyboard  # Library to detect keypress
 
 # Define the Word document path
 word_file = r"C:\Users\RGMatr1x\Downloads\Job_Application_Files\CoverLetter\Cover_Letter_with_Header.docx"
-MODEL = 'qwen2.5-coder:7b'
+MODEL = 'qwen2.5:0.5b'
 
 
 def edit_pdf_file_name(company_name):
